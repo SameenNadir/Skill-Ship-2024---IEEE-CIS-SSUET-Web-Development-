@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Portfolio</title>
+    <link rel="stylesheet" href="ss.css">
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            text-align:center;      
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            font-family: 'Baloo Bhai', cursive;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: dotted;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color:rgb(224, 56, 84);
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid white;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+        header {
+            /*background-color: rgb(250, 174, 186);*
+            color: rgb(224, 56, 84);
+            padding: 10px 20px; /* Adjusted padding */
+            text-align:center;
+            font-family: 'Baloo Bhai', cursive;
+            color: rgb(224, 56, 84);
+        }
+
+        footer {
+            font-family: 'Baloo Bhai', cursive;
+            background-color: rgb(224, 56, 84);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        footer p {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        footer p span {
+            margin-right: 5px;
+        }
+
+        @media screen and (max-width: 600px) {
+            footer p {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+      <h2>MY PORTFOLIO</h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="profile-image">
+                <img src="https://www.nowsel.com/img/products/43671454522/AB_D_43671454522_518.jpg" alt="Profile Image">
+            </div>
+            <h2>About Me</h2>
+            <p> I am a software student passionate about learning and building innovative solutions. </p>
+            <p>I enjoy exploring new technologies and solving challenging problems.</p>
+            <p>I am passionate about creating modern, user-friendly websites and captivating visual designs.</p>
+            <p> With a keen eye for detail, I strive to bring creativity and functionality together in every project.</p>
+            <p>Outside of coding and designing, you can find me reading, learning new languages or watching movies. </p>
+            <p>I am always eager to explore new technologies and trends in the ever-evolving world of web development and design.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><span>&#128231; Email: sameen@gmail.com</p>
+        <p><span>&#128222; Phone: +1234567890</p>
+        <p><span>&#128100; LinkedIn: Sameen Nadir</p>
+    </footer>
+</body>
+
+</html>

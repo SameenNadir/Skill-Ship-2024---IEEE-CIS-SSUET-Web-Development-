@@ -1,0 +1,487 @@
+/* Basic styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:  #fff;
+}
+
+
+header {
+  background-color: rgb (60, 60, 60);
+  color: rgb(250, 174, 186);
+  padding: 10px 20px;
+  text-align: center;
+  z-index: 999;
+  position: relative;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Add transparency to the navbar */
+  border-radius: 30px;
+  text-align:center;
+  z-index: 1000;
+  
+}
+
+/*header {
+  background-color: #012dbe;
+  color: #fff;
+  padding: 10px 20px;  Adjusted padding 
+  text-align: left;
+}*/
+
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  min-height: 100vh;
+}
+
+
+section h2 {
+  color: white;
+}
+
+section p {
+  color: white;
+}
+
+footer {
+  background-color: rgb(224, 56, 84);
+  color: #fff;
+  text-align: center;
+  padding: 11px;
+  position: relative;
+  clear: both;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-section {
+  /*background-image: url('https://www.wallpapertip.com/wmimgs/172-1722866_wallpaper-gradient-pink-white-linear-light-pink-light.jpg');
+ background-color: rgb(255, 255, 255);*/
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: rgb(224, 56, 84);
+  padding-top: 100px; /* Increase top padding for space above the content */
+  padding-bottom: 100px; /* Increase bottom padding for space below the content */
+  text-align: center; /* Center-align the content */
+}
+
+.about-section h2 {
+  color: rgb(12, 12, 15); /* Change the color of the h2 heading */
+  text-align: center;
+  padding-top: 5%; /* Increase top padding for space above the content */
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.about-section p {
+  color: rgb(224, 56, 84); /* Change the color of the paragraphs */
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+
+
+.profile-image {
+  width: 500px; /* Adjust the size of the circle */
+  height: 500px; /* Adjust the size of the circle */
+  border-radius: 50%; /* Creates a circle */
+  overflow: hidden; /* Ensures the image stays within the circle */
+  margin: 50px auto 20px; /* Centers the image horizontally, adds space below, and shifts it lower */
+  float: right; /* Moves the circle to the right side */
+}
+
+.profile-image img {
+  width: 100%; /* Makes the image fill the container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  display: block; /* Ensures proper alignment */
+}
+
+.projects-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.projects-section h2 {
+  color: rgb(12, 12, 15); /* Change the color of the h2 heading */
+  text-align: center;
+  padding-top: 5%; /* Increase top padding for space above the content */
+  font-family: 'Baloo Bhai', cursive;
+}
+
+/* Basic styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 254, 254);
+}
+
+header {
+  background-color: #fff;
+  color: rgb(250, 174, 186);
+  padding: 10px 20px;
+  text-align: center;
+  z-index: 999;
+  position: relative;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Add transparency to the navbar */
+  border-radius: 30px;
+  text-align: center;
+  z-index: 1000;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  min-height: 100vh;
+}
+
+section h2 {
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+section p {
+  color: rgb(224, 56, 84);
+  text-align: left;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+footer {
+  background-color: rgb(224, 56, 84);
+  color: #fff;
+  text-align: center;
+  padding: 11px;
+  position: relative;
+  clear: both;
+}
+
+
+
+.profile-image2 {
+  width: 200px; /* Adjust the width as per your preference */
+  height: 200px; /* Adjust the height as per your preference */
+  border-radius: 50%; /* Ensures it remains a circle */
+  overflow: hidden; /* Hides any overflow */
+  margin: 30px 20px 20px 20px;
+  float: right; /* Adjust the position as needed */
+}
+
+
+.profile-image2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.projects-section2 {
+ /* background-image: url('https://www.publicdomainpictures.net/pictures/80000/nahled/pink-ribbon-background-1392071108r4m.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+ margin: 0px,50px;
+  text-align: center;
+}
+
+
+.projects-section h3 {
+  color: rgb(12, 12, 15); /* Change the color of the h2 heading */
+  text-align: center;
+  padding-top: 10%; /* Increase top padding for space above the content */
+  font-family: 'Baloo Bhai', cursive;
+}
+.projects-section ul {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.projects-section p {
+  margin-bottom: 10px;
+  color: rgb(224, 56, 84);
+  text-align: center;
+}
+
+.projects-heading {
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.profile-imagee {
+  width: 500px; /* Adjust the width as per your preference */
+  height: 500px; /* Adjust the height as per your preference */
+  border-radius: 50%; /* Ensures it remains a circle */
+  overflow: hidden; /* Hides any overflow */
+  margin: 10px 20px 20px 20px;
+  float: right; /* Adjust the position as needed */
+}
+
+
+.profile-imagee img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.projects-section2 h3 {
+  margin-left: 50px;
+  color: rgb(12, 12, 15); /* Change the color of the h2 heading */
+  text-align: center;
+  padding-top: 10%; /* Increase top padding for space above the content */
+  font-family: 'Baloo Bhai', cursive;
+}
+.projects-imagee p {
+  margin-top: 1%;
+  margin-bottom: 10px;
+  color: rgb(224, 56, 84);
+  text-align: center;
+}
+
+.projects-section2 p {
+  margin-bottom: 10px;
+  color: rgb(224, 56, 84);
+  text-align: center;
+}
+
+
+
+
+
+.profile-imageee {
+  width: 500px; /* Adjust the width as per your preference */
+  height: 500px; /* Adjust the height as per your preference */
+  border-radius: 50%; /* Ensures it remains a circle */
+  overflow: hidden; /* Hides any overflow */
+  margin: 10px 20px 20px 20px;
+  float: right; /* Adjust the position as needed */
+}
+
+
+.profile-imageee img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.projects-section3 h3 {
+  margin-left: 50px;
+  color: rgb(12, 12, 15); /* Change the color of the h2 heading */
+  text-align: center;
+  padding-top: 10%; /* Increase top padding for space above the content */
+  font-family: 'Baloo Bhai', cursive;
+}
+.projects-imageee p {
+  margin-top: 1%;
+  margin-bottom: 10px;
+  color: rgb(224, 56, 84);
+  text-align: center;
+}
+
+.projects-section3 p {
+  margin-bottom: 10px;
+  color: rgb(224, 56, 84);
+  text-align: center;
+}
+
+
+
+
+
+
+/*.projects-section li {
+  color: rgb(12, 12, 15); /* Change the color of the h2 heading 
+  text-align: center;
+  padding-top: 10%; /* Increase top padding for space above the content 
+  font-family: 'Baloo Bhai', cursive;
+}
+.projects-section ul {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.projects-section li  a {
+  margin-bottom: 10px;
+  color: rgb(224, 56, 84);
+  text-align: center;
+}
+*/
+.skills-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  
+}
+
+.h-primary {
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+}
+.black-text {
+  color: black;
+}
+
+
+#skills{
+  margin: 34px;
+  display: flex;
+  text-align: center;
+}
+
+.skillsh1 {
+  margin-left: 50px;
+  color: rgb(12, 12, 15); /* Change the color of the h2 heading */
+  text-align: center;
+  padding-top: 10%; /* Increase top padding for space above the content */
+  font-family: 'Baloo Bhai', cursive;
+}
+#skills .box{ 
+  border: 2px solid brown;
+  padding: 34px;
+  margin: 2px 55px;
+  border-radius: 28px;
+  background: #f2f2f2;
+  margin-bottom: 20px;
+  color:black;
+}
+
+#skills .box img{ 
+ height: 160px;
+ margin: auto;
+ display: block;
+}
+
+#skills .box p{
+  font-family: 'Bree Serif', serif;
+  
+} 
+.contact-section {
+  background-image: url('https://donbur.co.uk/gb-en/images/uploads/contact-background.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  color: white;
+}
+
+
+/* Contact Section */
+#contact{
+  position: relative;
+}
+#contact::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+ 
+
+}
+#contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+} 
+
+#contact-box form{
+  width: 40%;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+#contact-box label{
+ font-size: 1.3rem;
+ font-family: 'Baloo Bhai', cursive;
+
+}
+
+
+footer{
+  background-color: rgb(224, 56, 84);
+  color: white;
+  padding: 9px 20px;
+}
+
+/* Utility Classes */
+.heading-primary{
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 2.2rem;
+  padding: 12px;
+  color: rgb(224, 56, 84);
+}
+
+
+.heading-secondary{
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 2.3rem;
+  padding: 12px;
+}
+
+.btn{
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+.center{
+  text-align: center;
+}
+
+
+
+

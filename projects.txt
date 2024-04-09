@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="ss.css">
+    <link rel="stylesheet" href="en.css">
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            text-align:center;
+           
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            font-family: 'Baloo Bhai', cursive;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: dotted;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color:rgb(224, 56, 84);
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid white;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+        header {
+            /*background-color: rgb(250, 174, 186);*
+            color: rgb(224, 56, 84);
+            padding: 10px 20px; /* Adjusted padding */
+            text-align:center;
+            font-family: 'Baloo Bhai', cursive;
+            color: rgb(224, 56, 84);
+        }
+        h1 {
+            text-align: center; /* Align text center */
+            font-family: 'Baloo Bhai', cursive;
+        }
+        footer {
+            font-family: 'Baloo Bhai', cursive;
+            background-color: rgb(224, 56, 84);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        footer p {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        footer p span {
+            margin-right: 5px;
+        }
+
+        @media screen and (max-width: 600px) {
+            footer p {
+                text-align: center;
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <h2>MY PORTFOLIO</h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+<h1>Projects</h1>
+    <main>
+        <section id="projects" class="projects">
+            <div class="profile-image">
+
+
+                <img src="https://conceptdraw.com/a155c4/p8/preview/640/pict--book-cloud-round-icons---vector-stencils-library.png--diagram-flowchart-example.png" alt="Profile Image">
+            </div>
+
+            
+        <section id="projects" class="projects-section">
+            <h3>Book Recommendation System</h3>
+            <ul>
+            
+                <p> I developed a book recommendation system in Python to help users discover new books based on their interests.</p>
+                <p>he system collects and preprocesses book data, extracting key features like author names, titles, and genres. Using machine learning techniques such as KNN, I built a recommendation model that suggests books tailored to each user's preferences. </p>
+                <p>It as a user-friendly application, providing personalized book recommendations to enhance the reading experience and encourage exploration of new literary works.</p>
+                
+            </ul>
+        </section>
+    </main>
+
+
+    <main>
+        <section  class="projects-section2">
+            <div class="profile-imagee">
+                <img src="https://clipground.com/images/girl-head-clipart-7.png" alt="Profile Image">
+            </div>
+            <h3>Personal Portfolio</h3>
+            
+                <p>A personal portfolio website using HTML and CSS showcases my skills, projects, and contact information.</p>
+                <p>It typically includes an About Me section for introduction and interests, a Projects section for project descriptions, a Skills section listing technical and soft skills, and a Contact section with contact details.
+                       
+        </section>
+    </main>
+ 
+<main>
+    <section  class="projects-section3">
+        <div class="profile-imageee">
+            <img src="https://static.vecteezy.com/system/resources/previews/029/889/535/original/video-game-controller-wireless-gamepad-icon-free-vector.jpg" alt="Profile Image">
+        </div>
+        <h3>Word Guessing Game</h3>
+        
+            <p>In Java I developed a A word guessing game . A word guessing game  is a fun program where players try to guess the missing letters of words, like names of flowers or animals. Players input letters to uncover the hidden ones, with feedback on correct and incorrect guesses. The game provides a database of words for guessing enjoyment.</p>
+                   
+    </section>
+</main>
+
+
+<footer>
+    <p><span>&#128231; Email: sameen@gmail.com</p>
+    <p><span>&#128222; Phone: +1234567890</p>
+    <p><span>&#128100; LinkedIn: Sameen Nadir</p>
+</footer>
+</body>
+
+</html>

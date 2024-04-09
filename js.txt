@@ -1,0 +1,84 @@
+// Smooth scrolling for navigation links
+document.addEventListener('DOMContentLoaded', function() {
+  const navLinks = document.querySelectorAll('nav ul li a');
+
+  navLinks.forEach(function(navLink) {
+    navLink.addEventListener('click', function(event) {
+      event.preventDefault();
+
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+        window.scrollTo({
+          top: targetSection.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to validate the form inputs
+  function validateForm() {
+      const nameInput = document.getElementById('name').value;
+      const emailInput = document.getElementById('email').value;
+      const phoneInput = document.getElementById('phone').value;
+      const messageInput = document.getElementById('message').value;
+
+      // Regular expressions for validation
+      const nameRegex = /^[a-zA-Z\s]+$/;
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      const phoneRegex = /^[0-9]+$/;
+
+      // Check if all fields are filled
+      if (nameInput === '' || emailInput === '' || phoneInput === '' || messageInput === '') {
+          alert('Please fill in all fields.');
+          return false;
+      }
+
+      // Check if name contains only letters
+      if (!nameRegex.test(nameInput)) {
+          alert('Please enter a valid name (letters only).');
+          return false;
+      }
+
+      // Check if email is valid
+      if (!emailRegex.test(emailInput)) {
+          alert('Please enter a valid email address.');
+          return false;
+      }
+
+      // Check if phone number contains only digits
+      if (!phoneRegex.test(phoneInput)) {
+          alert('Please enter a valid phone number (digits only).');
+          return false;
+      }
+
+      return true; // Form is valid
+  }
+
+  // Event listener for form submission
+  const contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+      contactForm.addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent default form submission
+
+          // Validate form inputs
+          if (validateForm()) {
+              // If form is valid, submit the form
+              this.submit();
+          }
+      });
+  }
+});
+
+
+
+   
+
+
